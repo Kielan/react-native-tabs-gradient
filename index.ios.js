@@ -87,6 +87,3 @@ var styles = StyleSheet.create({
         height: 0,
     },
 });
-
-
-AppRegistry.registerComponent('reactNativeTabsGradient', () => reactNativeTabsGradient);
