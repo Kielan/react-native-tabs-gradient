@@ -1,7 +1,10 @@
 {
-  "name": "reactNativeTabsGradient",
-  "version": "0.0.1",
-  "private": true,
+  "name": "react-native-tabs-gradient",
+  "version": "0.0.2",
+  "private": false,
+  "author": {
+    "name": "Kielan Lemons"
+  },
   "scripts": {
     "start": "react-native start",
     "test": "jest"
