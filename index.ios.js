@@ -70,6 +70,7 @@ export default class reactNativeTabsGradient extends Component {
 var styles = StyleSheet.create({
     tabbarView: {
         position:'absolute',
+        borderWidth:0,
         bottom:0,
         right:0,
         left:0,
