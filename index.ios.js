@@ -9,6 +9,7 @@ import {
   Keyboard,
   Platform,
 } from 'react-native';
+import LinearGradient from 'react-native-linear-gradient';
 type State = {
     keyboardUp: boolean,
 }
