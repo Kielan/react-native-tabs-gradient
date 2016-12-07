@@ -49,7 +49,7 @@ export default class reactNativeTabsGradient extends Component {
         });
     }
     return (
-      <LinearGradient key="gradientWrap" locations={[0.0, 0.5]} colors={['transparent', 'rgba(108, 1, 4, 0.5)']} style={[styles.tabbarView, this.props.style, this.state.keyboardUp && styles.hidden]}>
+      <LinearGradient key="gradientWrap" locations={[0.25, 0.75]} colors={['transparent', 'rgba(108, 1, 4, 1)']} style={[styles.tabbarView, this.props.style, this.state.keyboardUp && styles.hidden]}>
           {React.Children.map(this.props.children.filter(c=>c),(el)=>
               <TouchableOpacity key={el.props.name+"touch"}
                  testID={el.props.testID}
